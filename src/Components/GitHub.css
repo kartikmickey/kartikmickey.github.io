@@ -1,0 +1,45 @@
+
+#github .title::before {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    width: 145px;
+    height: 3.1px;
+    background: #111;
+    transform: translateX(-50%);
+  }
+
+  #sec{
+    display: flex;
+    justify-content: space-around;
+    
+    font-family: "Ubuntu", sans-serif;
+  }
+  #github-streak-stats{
+    margin: 30px;
+    
+    font-family: "Ubuntu", sans-serif;
+  }
+  #github-stats-card{
+    margin: 30px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  @media (max-width: 1000px) {
+    #sec{
+        flex-direction: column;
+    }
+    #github-stats-card{
+        margin: 30px;
+        margin-top: 0px;
+      }
+  }
+
+  @media (max-width: 500px) {
+    .react-activity-calendar{
+        display: none;
+    }
+    #github-streak-stats{
+        margin-top: -15px;
+      }
+  }

@@ -1,0 +1,139 @@
+#projects .titles::before {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  width: 170px;
+  height: 3px;
+  background: white;
+  transform: translateX(-50%);
+}
+
+#cards{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* border: 2px, solid green; */
+  gap: 60px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+.card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  font-family: "Ubuntu", sans-serif;
+}
+.card:hover {
+  background: #92bcb5;
+  color: #000;
+  /* change */
+}
+.card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.card:hover .demo-div a,
+.card:hover .repo-div a,
+.card:hover .repo-div a:link,
+.card:hover .demo-div a:link,
+.card:hover .techStack {
+  text-decoration: none;
+  color: black;
+}
+
+ .card:hover .box {
+  transform: scale(1.05);
+}
+ .card .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px 0 7px 0;
+}
+
+.repo-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 45px;
+  margin-top: 5%;
+  /* border: 2px solid wheat; */
+}
+.card:hover .repo-div {
+  border: 1px solid black
+}
+.card:hover .demo-div {
+  border: 1px solid black
+}
+
+.repo-div {
+  display: flex;
+  width: 35%;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-div {
+  display: flex;
+  width: 35%;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+}
+ .techStack {
+  color: purple;
+}
+
+.demo-div a,
+.repo-div a,
+.repo-div a:link,
+.demo-div a:link,
+.techStack {
+  text-decoration: none;
+  color: white;
+}
+
+.card img {
+  height: 250px;
+  width: 410px;
+  object-fit: fit;
+  border-radius: 5%;
+  border: 5px solid #92bcb5;
+  transition: all 0.3s ease;
+}
+ .card:hover img {
+  border-color: #fff;
+  color: white;
+}
+
+
+@media screen and (max-width: 947px) {
+
+}
+
+@media screen and (max-width: 780px) {
+  #cards{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card img {
+    object-fit: cover;}
+}
+
+@media screen and (max-width: 450px) {
+  #cards{
+    gap: 46px
+  }
+  #projects .max-width{
+    padding: 0 46px ;
+   }
+
+}
