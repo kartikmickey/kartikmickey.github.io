@@ -3,6 +3,7 @@ import './Project.css';
 import Reliance from "../images/Reliance.png"
 import Gusto from "../images/Gusto.png"
 import MyGlamm from "../images/MyGlamm.png"
+import Limeroad from "../images/Limeroad.png"
 
 const Project = () => {
 
@@ -76,19 +77,19 @@ const Project = () => {
 
        <div className="card project-card">
              <div className="box">
-              <img src={Reliance} alt=""/>
-               <div className="text project-title">Reliance Digital</div>
-            <p className='project-description'>This is an Indian consumer electronics retailer. It is a subsidiary of Reliance Retail, a wholly owned subsidiary of Reliance Industries.
+              <img src={Limeroad} alt=""/>
+               <div className="text project-title">LimeRoad</div>
+            <p className='project-description'>It is India's first women's social shopping website. It deals in clothing and accessories for women, men and kids.
 
             </p>
           <br/>
-         <p className="techStack project-tech-stack">TechStack: JavaScrpit, HTML, CSS, React</p>
+         <p className="techStack project-tech-stack">TechStack: JavaScrpit, HTML, CSS, React, Node</p>
         <div className="repo-links">
            <div className="repo-div">
-        <span>  <a className='project-github-link' href="https://github.com/kartikmickey/mindless-wool-6764" target="_blank"> Git Repo </a></span>
+        <span>  <a className='project-github-link' href="https://github.com/SumanBlswas/spicy-yak-7891" target="_blank"> Git Repo </a></span>
              </div>
               <div className="demo-div">
-               <span> <a className='project-deployed-link' href="https://chipper-parfait-a47527.netlify.app/" target="_blank">Live </a></span>
+               <span> <a className='project-deployed-link' href="https://frontend-nu-hazel-89.vercel.app/" target="_blank">Live </a></span>
                  </div>
            </div>
                         </div>   

@@ -28,7 +28,9 @@ works with both the front and
 back ends of a website or
 application. Provide an end-to-end service, and can be involved
 in projects that involve
-databases and building user-facing websites. Problem-solving mindset with a goal to optimize application for better stability and speed.</p>
+databases and building user-facing websites. Problem-solving mindset with a goal to optimize application for better stability and speed.
+{/* JavaScript HTML CSS React */}
+</p>
        </div>
     </div>
 </div>
@@ -37,3 +39,6 @@ databases and building user-facing websites. Problem-solving mindset with a goal
 }
 
 export default memo(About)
+
+
+{/* <button id="resume-button-1" className="text-3"href="https://drive.google.com/file/d/19vD9-jQMpAhc3_5ZnVkNKzAw70IvYk71/view?usp=share_link" target="_blank" download >Resume</button> */}

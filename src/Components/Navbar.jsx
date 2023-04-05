@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { GoThreeBars } from "react-icons/go";
 import './Navbar.css';
-import Resume from "../images/Resume.pdf"
+// import Resume from "../images/Resume.pdf"
+import Resume from "../images/Kartik_Jain_Resume.pdf"
 import { saveAs } from "file-saver";
 import { HashLink as Link } from "react-router-hash-link"
  
@@ -80,3 +81,9 @@ const Navbar = ()=> {
 }
 
 export default Navbar;
+
+    {/* <button id="resume-button-1" onClick={handleClick} className="text-3 nav-link resume"href="https://drive.google.com/file/d/19vD9-jQMpAhc3_5ZnVkNKzAw70IvYk71/view?usp=share_link" target="_blank" download= {Resume} >Resume</button> */}
+   {/* <button id="resume-button-2" onClick={handleClick} className="text-3"href="https://drive.google.com/file/d/19vD9-jQMpAhc3_5ZnVkNKzAw70IvYk71/view?usp=share_link" target="_blank" download >Resume</button> */}
+  //  <button id="resume-button-1">
+  //   <a id='resume-link-1'  className="nav-link resume" target="_blank" href='https://drive.google.com/file/d/19vD9-jQMpAhc3_5ZnVkNKzAw70IvYk71/view' download>Resume</a>
+  //   </button>
